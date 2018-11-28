@@ -15,7 +15,7 @@ Go API will pass jobs to microservices mostly written in Go. Data to be sent bet
 ### To be Developed
 - Look at pdf as image and see if there is a match stored in the database with all the useful content or parse pdf content if possible. Output all stored content and give the ability to add content. Also match with project. (Priority: Low)
 - Match spec to cutsheet and give recommendations of what to look for on drawing if required (schedule or location on plans). (Priority: Low)
-- 
+- Link Revit model in some way (Priority: Low)
 - Store user information in database (Priority: High)
 - Hash password (Priority: High)
 - Send email to verify email (don't see the use in this at this point) (Priority: Low)
