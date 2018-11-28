@@ -25,6 +25,7 @@ Go API will pass jobs to microservices mostly written in Go. Data to be sent bet
 - [ ] Connect backend to a Neo4j server using the [Official Neo4j Go Driver](https://github.com/neo4j/neo4j-go-driver)
 - [ ] Add image recognition of some sort using [GoCV](https://gocv.io/) to check for similar documents.
 - [ ] Parse word documents for formating and contents, eventially adding a searchable master spec system
+- [ ] Implement [pdf parser](https://godoc.org/github.com/unidoc/unidoc/pdf/core#PdfObjectString)
 
 ## Just Notes
 
