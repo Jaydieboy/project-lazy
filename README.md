@@ -10,3 +10,4 @@ This is a web application that creates a network of data for better lookup and t
 
 ## To-Do
 - [ ] Build REST-ful API in Go with help from [Todd McLeod's Golang Web Development Course](https://github.com/GoesToEleven/golang-web-dev)
+- [ ] Connect backend to a Neo4j server using the [Official Neo4j Go Driver](https://github.com/neo4j/neo4j-go-driver)
