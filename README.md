@@ -5,5 +5,5 @@ This is a web application that creates a network of data for better lookup and t
 ## Built With
 
 * The backend uses the Go programming language
-** The server mux employs the [julienschmidt/httprouter](https://godoc.org/github.com/julienschmidt/httprouter)
+ * The server mux employs the [julienschmidt/httprouter](https://godoc.org/github.com/julienschmidt/httprouter)
 * SPA front end uses Angular
