@@ -12,3 +12,15 @@ This is a web application that creates a network of data for better lookup and t
 - [ ] Create an Ubuntu docker container to set up the Neo4j Go Driver
 - [ ] Build REST-ful API in Go with help from [Todd McLeod's Golang Web Development Course](https://github.com/GoesToEleven/golang-web-dev)
 - [ ] Connect backend to a Neo4j server using the [Official Neo4j Go Driver](https://github.com/neo4j/neo4j-go-driver)
+
+## Just Notes
+
+Cite code snippets as follows:
+/***************************************************************************************
+*    Title: <title of program/source code>
+*    Author: <author(s) names>
+*    Date: <date>
+*    Code version: <code version>
+*    Availability: <where it's located>
+*
+***************************************************************************************/
