@@ -16,6 +16,7 @@ This is a web application that creates a network of data for better lookup and t
 ## Just Notes
 
 Cite code snippets as follows:
+```
 /***************************************************************************************
 *    Title: <title of program/source code>
 *    Author: <author(s) names>
@@ -24,3 +25,6 @@ Cite code snippets as follows:
 *    Availability: <where it's located>
 *
 ***************************************************************************************/
+```
+
+Does this need to happen of I have adapted a concept for my code from someone else?
