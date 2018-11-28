@@ -9,7 +9,7 @@ This is a web application that creates a network of data for better lookup and t
 - SPA front end uses Angular
 
 ## Microservices
-Go API will pass jobs to microservices mostly written in Go. Data to be sent between some services should be in the form of binary json until I know better. See more [here](https://medium.com/@nathankpeck/microservice-principles-smart-endpoints-and-dumb-pipes-5691d410700f)
+Go API will pass jobs to microservices mostly written in Go. Data to be sent between some services should be in the form of binary json until I know better. See more [here](https://medium.com/@nathankpeck/microservice-principles-smart-endpoints-and-dumb-pipes-5691d410700f) Look into managing multiple databases using event-driven architecture. Look into it more [here](https://microservices.io/patterns/data/database-per-service.html) I will be using same database. Here is something on creating roles for users [neo4j docs](https://neo4j.com/docs/operations-manual/current/authentication-authorization/subgraph-access-control/).
 ### Developed
 
 ### To be Developed
