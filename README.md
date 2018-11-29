@@ -74,6 +74,8 @@ Look at how to get a microservice architectured product off the ground [here](ht
 
 Try this for [microservice](https://medium.com/@shijuvar/building-microservices-with-event-sourcing-cqrs-in-go-using-grpc-nats-streaming-and-cockroachdb-983f650452aa) with go.
 
+[Just Watch This](https://www.youtube.com/watch?v=j6ow-UemzBc)
+
 ### Developed
 
 ### To be Developed
