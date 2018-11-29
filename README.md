@@ -59,7 +59,8 @@ func HandleError(w http.ResponseWriter, err error) {
 ```
 If you want to go to another page then use `<a href="/pagename">pagename</a>`.
 
-3.	Get this working with https.
+3.	Read through [Passing Data](https://github.com/GoesToEleven/golang-web-dev/tree/master/027_passing-data) setion.
+4.	Create a generic header and footer 
 
 ## Built With
 
