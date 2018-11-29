@@ -26,7 +26,7 @@ Look at how to get a microservice architectured product off the ground [here](ht
 - Hash password (Priority: High)
 - Send email to verify email (don't see the use in this at this point) (Priority: Low)
 ## To-Do
-- [ ] Create an Ubuntu docker container to set up the Neo4j Go Driver
+- [ ] Create an Ubuntu docker container to set up the [Neo4j Bolt Driver for Go](https://github.com/neo4j/neo4j-go-driver)
 - [ ] Build REST-ful API in Go with help from [Todd McLeod's Golang Web Development Course](https://github.com/GoesToEleven/golang-web-dev)
 - [ ] Connect backend to a Neo4j server using the [Official Neo4j Go Driver](https://github.com/neo4j/neo4j-go-driver)
 - [ ] Add image recognition of some sort using [GoCV](https://gocv.io/) to check for similar documents.
