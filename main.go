@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"github.com/julienschmidt/httprouter"
 	"html/template"
 	"log"
@@ -11,7 +10,7 @@ import (
 var tmplh *template.Template
 
 func init() {
-	tmplh = template.Must(template.ParseGlob("template/*"))
+	tmplh = template.Must(template.ParseGlob("templates/*"))
 }
 
 func main() {
