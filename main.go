@@ -16,6 +16,7 @@ func init() {
 func main() {
 	router := httprouter.New()
 	router.GET("/", index)
+	http.Handle("/favicon.ico", http.NotFoundHandler())
 	http.ListenAndServe(":8080", router)
 }
 
