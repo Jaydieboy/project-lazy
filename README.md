@@ -4,60 +4,7 @@ This is a web application that creates a network of data for better lookup and t
 
 ## Steps for Development
 1.	Get the [server mux](https://godoc.org/github.com/julienschmidt/httprouter) up and running.
- 
-```golang
-package main
-
-import (
-	"fmt"
-	"github.com/julienschmidt/httprouter"
-	"html/template"
-	"log"
-	"net/http"
-)
-
-var tmplh *template.Template
-
-func init() {
-	tmplh = template.Must(template.ParseGlob("templates/*"))
-}
-
-func main() {
-	router := httprouter.New()
-	router.GET("/", index)
-	http.ListenAndServe(":8080", router)
-}
-
-func index(w http.ResponseWriter, req *http.Request, _ httprouter.Params) {
-	err := tmplh.ExecuteTemplate(w, "index.gohtml", nil)
-	HandleError(w, err)
-}
-
-func HandleError(w http.ResponseWriter, err error) {
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		log.Fatalln(err)
-	}
-}
-```
-2.	Serve `/templates/index.gohtml`
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>The Lazy Project</title>
-</head>
-<body>
-
-    <h1>Welcome to the <strong>Lazy Project</strong> home page!</h1><br>
-    <a href="/">index</a><br>
-
-</body>
-</html>
-```
-If you want to go to another page then use `<a href="/pagename">pagename</a>`.
+2.	Serve `/templates/index.gohtml`. If you want to go to another page then use `<a href="/pagename">pagename</a>`.
 
 3.	Read through [Passing Data](https://github.com/GoesToEleven/golang-web-dev/tree/master/027_passing-data) setion.
 4.	Create a generic header and footer 
