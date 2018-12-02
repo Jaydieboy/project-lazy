@@ -39,6 +39,7 @@ Try this for [microservice](https://medium.com/@shijuvar/building-microservices-
 - [ ] Add image recognition of some sort using [GoCV](https://gocv.io/) to check for similar documents.
 - [ ] Parse word documents for formating and contents, eventially adding a searchable master spec system
 - [ ] Implement [pdf parser](https://godoc.org/github.com/unidoc/unidoc/pdf/core#PdfObjectString)
+- [ ] Implement a [load balancer](https://godoc.org/github.com/nienie/marathon) for microservices
 
 ## Just Notes
 
