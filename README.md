@@ -3,6 +3,9 @@
 This is a web application that creates a network of data for better lookup and to ultimately create the "button" that does all the things.
 
 Note: Sometimes use golint.
+
+Do this: https://tour.golang.org/concurrency/10
+
 ## Steps for Development
 1.	Get the [server mux](https://godoc.org/github.com/julienschmidt/httprouter) up and running.
 2.	Serve `/templates/index.gohtml`. If you want to go to another page then use `<a href="/pagename">pagename</a>`.
