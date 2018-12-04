@@ -58,6 +58,11 @@ Cite code snippets as follows:
 
 Does this need to happen of I have adapted a concept for my code from someone else?
 
+### Here is Example code for connecting to neo4j
+
+<details><summary>Go Code</summary>
+<p>
+
 ```golang
 package main
 
@@ -201,7 +206,11 @@ func init() {
   flag.StringVar(&username, "username", "neo4j", "the database username")
   flag.StringVar(&password, "password", "", "the database password")
   flag.StringVar(&query, "query", "", "the query to execute")
-}```
+}
+```
+
+</p>
+</details>
 
 ## Front End
 ### HTML
