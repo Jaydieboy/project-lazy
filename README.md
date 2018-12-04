@@ -202,3 +202,9 @@ func init() {
   flag.StringVar(&password, "password", "", "the database password")
   flag.StringVar(&query, "query", "", "the query to execute")
 }```
+
+## Front End
+### HTML
+Don't got nothing yet.
+### CSS (I would love to use scss)
+- [ ] Create a CSS reset document `projectlazy-reset.css`.
