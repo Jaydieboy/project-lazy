@@ -217,6 +217,21 @@ func init() {
 
 ## Front End
 ### HTML
-Don't got nothing yet.
+the `contenteditable="true"` is a cool feature that makes the element editable.
 ### CSS (I would love to use scss)
+Order matters. Elements < class < id < inline style also link css order matters. The render engine reads from top to bottom. See [scc calculator](https://specificity.keegan.st/) 
+#### Selectors
+- id = #id (you can only use one per document that is called the same thing)
+- class = .class
+- element = element
+- attribute = [attribute]
+
+#### Pseudo-Classes
+Note: the order matters. LVHA "Live HA". `element:link`
+1. `:link`
+2. `:visited`
+3. `:hover`
+4. `:active`
+Use `:focus` in form input feilds instead of `:active` because active is best used for links.
+
 - [ ] Create a CSS reset document `projectlazy-reset.css`.
