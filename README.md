@@ -5,6 +5,7 @@ This is a web application that creates a network of data for better lookup and t
 Note: Sometimes use golint.
 
 Do this: https://tour.golang.org/concurrency/10
+Use [Auth0](https://manage.auth0.com/welcome/)
 
 ## Steps for Development
 1.	Get the [server mux](https://godoc.org/github.com/julienschmidt/httprouter) up and running.
