@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    border: solid red;
+}
+
+#left-side {
+    grid-column: 1;
+    grid-row: 1 / 5;
+    border: solid;
+}
+
+#right-side {
+    grid-column: 2;
+    grid-row: 1 / 5;
+    border: solid;
+}
