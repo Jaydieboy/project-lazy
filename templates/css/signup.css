@@ -6,21 +6,18 @@
 5. Signin boxes should have rounded edges */
 
 body {
-    height: 100%;
-    border: solid red;
+    display: flex;
+    border: solid 3px red;
 }
 
 img {
-    border: solid purple;
+    border: solid 3px purple;
 }
 
 #left-side {
-    display: flex;
-    border: solid;
+    border: solid 3px palevioletred;
 }
 
 #right-side {
-    grid-column: 2;
-    grid-row: 1 / 5;
-    border: solid;
+    border: solid 3px greenyellow;
 }

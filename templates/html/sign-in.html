@@ -20,28 +20,26 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div id="left-side">
-        <img src="../CatInTree.svg" alt="lazy-logo"/>
-        <h2>Welcome to The Lazy Project</h2>
-        </div>
-        <div id="right-side">
-            <header>
+        <article id="left">
+            <img src="../CatInTree.svg" alt="lazy-logo"/>
+            <h2>Welcome to The Lazy Project</h2>
+        </article>
+        <aside id="right">
                 <h1>Sign In</h1>
                 <form action="/sign-in" method="post">
-                    <div class="form-item">
+                    <fieldset>
                         <label for="email">Email: </label>
                         <input type="email" name="email" id="POST-email" required>
-                    </div>
-                    <div class="form-item">
+                    </fieldset>
+                    <fieldset>
                         <label for="password">Password: </label>
                         <input type="password" name="password" id="POST-password" required>
-                    </div>
-                    <div class="form-item">
-                        <input type="submit" value="Signin">
-                    </div>
+                    </fieldset>
+                    <fieldset>
+                        <input type="submit" value="Sign In">
+                    </fieldset>
                 </form>
-            </header>
-        </div>
+        </aside>
         <script src="" async defer></script>
     </body>
 </html>
